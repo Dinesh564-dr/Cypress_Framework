@@ -1,0 +1,30 @@
+{
+  "name": "cucumberbdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^8.5.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^1.6.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

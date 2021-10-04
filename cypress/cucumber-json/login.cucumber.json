@@ -1,0 +1,42 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login feature",
+    "line": 1,
+    "id": "login-feature",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-feature;login-scenario",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login scenario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user login to Application",
+            "result": {
+              "status": "passed",
+              "duration": 17885000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "verify login is success",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

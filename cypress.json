@@ -1,0 +1,31 @@
+{
+
+    "defaultCommandTimeout":70000,
+    "pageLoadTimeout":30000,
+    "env": {
+        "url": "https://www.naukri.com/nlogin/login",
+        "email":"dineshpekanti564@gmail.com",
+        "password":"Dinesh@564"
+    },
+
+    "reporter": "mochawesome",
+    "reporterOptions":{
+        "reportDir": "cypress/reports",
+        "reportFilename":"report",
+        "overwrite": true,
+        "html": true,
+        "json": false,
+        "timestamp": "mmddyyyy_HHMMss"
+    },
+    "video": true,
+
+    "testFiles": "**/*.feature",
+      
+
+    "retries":{
+        "runMode": 1
+    }
+
+  
+
+}
